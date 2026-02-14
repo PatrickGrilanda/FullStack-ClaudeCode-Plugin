@@ -1,0 +1,28 @@
+{
+  "name": "fullstack-claudecode-plugin",
+  "version": "1.0.0",
+  "description": "A comprehensive multi-agent workflow plugin for Claude Code featuring 16 specialized agents (developer, planner, security analyst, code reviewer, business analyst, and more), 12 skills, 4 output styles, and structured Development + Business Analysis workflows with modular domain knowledge loading.",
+  "author": {
+    "name": "Patrick Grilanda",
+    "url": "https://github.com/PatrickGrilanda"
+  },
+  "repository": "https://github.com/PatrickGrilanda/FullStack-ClaudeCode-Plugin",
+  "license": "MIT",
+  "keywords": [
+    "workflow",
+    "multi-agent",
+    "code-review",
+    "security-analysis",
+    "business-analysis",
+    "planning",
+    "fullstack",
+    "development",
+    "devops",
+    "testing"
+  ],
+  "agents": "./agents/",
+  "skills": "./skills/",
+  "hooks": "./hooks/hooks.json",
+  "mcpServers": "./.mcp.json",
+  "outputStyles": "./styles/"
+}

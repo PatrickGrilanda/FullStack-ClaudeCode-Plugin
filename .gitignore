@@ -1,0 +1,21 @@
+# Sensitive configuration (contains API keys)
+settings.json
+
+# Runtime knowledge (generated during workflow execution)
+app_knowledge/*
+!app_knowledge/.gitkeep
+memory/*
+!memory/.gitkeep
+
+# Node
+node_modules/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
