@@ -199,6 +199,7 @@ Skills are invocable actions that agents use during workflow execution. Some can
 | `diagnosis` | Diagnoses problems through data structure and codebase analysis |
 | `tests` | Creates and runs tests for acceptance criteria |
 | `wireframing` | Creates wireframe specifications for UI components |
+| `setup-project` | Analyzes the project and populates empty CLAUDE.md sections (summary, tests, code style, architecture, stack) |
 | `identify-stack` | Detects project tech stack and annotates CLAUDE.md with Context7 links |
 | `frontmatter-evaluation` | Evaluates knowledge files so agents can select relevant themes |
 | `research-frontend-references` | Searches design platforms for visual references and patterns |

@@ -1,20 +1,6 @@
 {
-   "hooks": {
-    "SessionStart": [
-      {
-        "hooks": [
-          {
-            "type": "command",
-            "command": "claude -p \"Verify in CLAUDE.md file if the subtitles `Project Summary`, `Additional rules`, `Project Rules`, `Testing Instructions`, `Code Style`, `Architectural Decisions` and `Development Environment Quirks` was filled, if it isn`t filled, research real information in the project to fill up the subtitles, if you don`t find any relevant information don`t fill any information. if the information was filled in the past you must to do an analysis in the project and fill with missing information. You are allowed to delete or replace informations that aren`t about the project, but you are not allowed to change informations that the CLAUDE.md file defines that are immutable.  \" --allowedTools \"Bash,Read,Grep,Write\" --max-turns 15"
-          },
-          {
-            "type": "command",
-            "command": "claude -p \"Analyse the project development rules to find any inconsistence in the rules that can cause issues in the agent thinking like allucination, you must to write this risks in the section Risks of CLAUDE.md, yoou must to register the RISK and the mitigation.  \" --allowedTools \"Bash,Read,Grep,Write\" --max-turns 15"
-          }
-        ]
-      }
-    ],
-    "PostToolUse": [
-    ]
+  "hooks": {
+    "SessionStart": [],
+    "PostToolUse": []
   }
 }
