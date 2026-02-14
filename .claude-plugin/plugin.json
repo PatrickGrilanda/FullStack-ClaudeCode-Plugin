@@ -20,9 +20,5 @@
     "devops",
     "testing"
   ],
-  "agents": "./agents/",
-  "skills": "./skills/",
-  "hooks": "./hooks/hooks.json",
-  "mcpServers": "./.mcp.json",
   "outputStyles": "./styles/"
 }
