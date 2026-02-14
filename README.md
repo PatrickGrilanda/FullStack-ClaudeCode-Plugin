@@ -320,6 +320,45 @@ summary: One-line description of the file contents
 
 The `frontmatter_content_evaluation.py` script indexes all knowledge files so agents can select relevant themes without reading full contents.
 
+## Troubleshooting
+
+### Plugin installation fails with "agents: Invalid input"
+
+This happens when the marketplace cache is stale (e.g., you updated plugin files but the cached version still has old configuration).
+
+**Fix:** Remove and re-add the marketplace:
+
+```shell
+/plugin marketplace remove fullstack-claudecode-plugins
+/plugin marketplace add <path-or-repo>
+/plugin install fullstack-claudecode-plugin@fullstack-claudecode-plugins
+```
+
+### MCP servers not working after installation
+
+Context7 requires an API key. If you see errors related to Context7, edit `.mcp.json` in the plugin's installed directory and replace `YOUR_CONTEXT7_API_KEY_HERE` with your actual key from [context7.com](https://context7.com).
+
+Sequential Thinking requires no configuration and should work out of the box.
+
+### Domain files not found by agents
+
+Domain knowledge files live in the `domains/` directory at the plugin root, **not** inside `agents/`. If an agent reports it cannot find a domain file, verify the path follows the pattern `domains/<agent_name>/<domain_file>.md`.
+
+### Session hooks not running
+
+The `SessionStart` hooks in `hooks/hooks.json` spawn separate Claude instances using the `claude` CLI. Ensure:
+- Claude Code CLI is available in your PATH
+- The hooks have the correct permissions (the plugin copies them to cache on install)
+
+### Plugin shows old version after update
+
+Claude Code caches plugins on install. After updating the source repository:
+
+```shell
+/plugin marketplace update fullstack-claudecode-plugins
+/plugin update fullstack-claudecode-plugin@fullstack-claudecode-plugins
+```
+
 ## License
 
 MIT
