@@ -6,7 +6,7 @@
   "plugins": [
     {
       "name": "fullstack-claudecode-plugin",
-      "source": ".",
+      "source": "./",
       "description": "Multi-agent workflow plugin with 16 agents, 12 skills, structured Development and Business Analysis workflows, modular domain knowledge, and 4 output styles."
     }
   ]
