@@ -32,14 +32,14 @@ Use it to:
 
 ### Step 1.5: Load Relevant Domains
 
-Based on the classification from Step 1, load the relevant domain files from `agents/devils_advocate/domains/`. Use the **Domain Selection Matrix** below to determine which domains to load for the current task type. Read each selected domain file to acquire the full framework knowledge before proceeding.
+Based on the classification from Step 1, load the relevant domain files from `domains/devils_advocate/`. Use the **Domain Selection Matrix** below to determine which domains to load for the current task type. Read each selected domain file to acquire the full framework knowledge before proceeding.
 
 ```bash
 # Example: for a plan review, load domains 2, 5, 7, 8
-cat agents/devils_advocate/domains/pre_mortem.md
-cat agents/devils_advocate/domains/assumption_mapping.md
-cat agents/devils_advocate/domains/decision_quality.md
-cat agents/devils_advocate/domains/inversion_thinking.md
+cat domains/devils_advocate/pre_mortem.md
+cat domains/devils_advocate/assumption_mapping.md
+cat domains/devils_advocate/decision_quality.md
+cat domains/devils_advocate/inversion_thinking.md
 ```
 
 **IMPORTANT:** You MUST load domains BEFORE starting any analysis. Domain files contain the detailed frameworks, processes, rating scales, and application rules you need. Working without loading them will produce shallow, unstructured criticism.
@@ -62,16 +62,16 @@ Use the JSON output to identify relevant themes and read only the files that mat
 
 | # | Domain | File Path | Summary |
 |---|---|---|---|
-| 1 | Cognitive Bias Detection | `agents/devils_advocate/domains/cognitive_bias_detection.md` | 11 cognitive biases with tech manifestations and countermeasures |
-| 2 | Pre-Mortem Analysis | `agents/devils_advocate/domains/pre_mortem.md` | Gary Klein pre-mortem analysis with prospective hindsight methodology |
-| 3 | Red Team Thinking | `agents/devils_advocate/domains/red_team.md` | Red team thinking with KAC, ACH, What-If Analysis, Problem Restatement, Think-Write-Share |
-| 4 | Dialectical Thinking | `agents/devils_advocate/domains/dialectical_thinking.md` | Steelmanning process and Mason & Mitroff Dialectical Inquiry 5-phase methodology |
-| 5 | Assumption Mapping | `agents/devils_advocate/domains/assumption_mapping.md` | David Bland assumption mapping with 3 categories and 2x2 prioritization matrix |
-| 6 | Second-Order Thinking | `agents/devils_advocate/domains/second_order_thinking.md` | Consequences analysis, Chesterton's Fence, Goodhart's Law, unintended consequences |
-| 7 | Decision Quality | `agents/devils_advocate/domains/decision_quality.md` | SDG Decision Quality Framework with 6-element chain and weakest link principle |
-| 8 | Inversion Thinking | `agents/devils_advocate/domains/inversion_thinking.md` | Charlie Munger/Carl Jacobi inversion with goal inversion and assumption inversion |
-| 9 | Socratic Questioning | `agents/devils_advocate/domains/socratic_questioning.md` | Five Whys with rules and 6 types of Socratic Questions for root cause analysis |
-| 10 | FMEA | `agents/devils_advocate/domains/fmea.md` | FMEA with RPN calculation, S/O/D ratings 1-10, and risk level action thresholds |
+| 1 | Cognitive Bias Detection | `domains/devils_advocate/cognitive_bias_detection.md` | 11 cognitive biases with tech manifestations and countermeasures |
+| 2 | Pre-Mortem Analysis | `domains/devils_advocate/pre_mortem.md` | Gary Klein pre-mortem analysis with prospective hindsight methodology |
+| 3 | Red Team Thinking | `domains/devils_advocate/red_team.md` | Red team thinking with KAC, ACH, What-If Analysis, Problem Restatement, Think-Write-Share |
+| 4 | Dialectical Thinking | `domains/devils_advocate/dialectical_thinking.md` | Steelmanning process and Mason & Mitroff Dialectical Inquiry 5-phase methodology |
+| 5 | Assumption Mapping | `domains/devils_advocate/assumption_mapping.md` | David Bland assumption mapping with 3 categories and 2x2 prioritization matrix |
+| 6 | Second-Order Thinking | `domains/devils_advocate/second_order_thinking.md` | Consequences analysis, Chesterton's Fence, Goodhart's Law, unintended consequences |
+| 7 | Decision Quality | `domains/devils_advocate/decision_quality.md` | SDG Decision Quality Framework with 6-element chain and weakest link principle |
+| 8 | Inversion Thinking | `domains/devils_advocate/inversion_thinking.md` | Charlie Munger/Carl Jacobi inversion with goal inversion and assumption inversion |
+| 9 | Socratic Questioning | `domains/devils_advocate/socratic_questioning.md` | Five Whys with rules and 6 types of Socratic Questions for root cause analysis |
+| 10 | FMEA | `domains/devils_advocate/fmea.md` | FMEA with RPN calculation, S/O/D ratings 1-10, and risk level action thresholds |
 
 ## Domain Selection Matrix
 

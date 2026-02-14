@@ -24,16 +24,16 @@ Planning knowledge is organized into 10 specialized domain files. Load ONLY the 
 
 | # | Domain | File | Key | When to Load |
 |---|---|---|---|---|
-| 1 | Work Breakdown Structure | `agents/planner/domains/wbs.md` | planner-wbs | Task decomposition, scope definition |
-| 2 | Critical Path Method | `agents/planner/domains/cpm.md` | planner-cpm | Schedule analysis, compression |
-| 3 | PERT Estimation | `agents/planner/domains/pert.md` | planner-pert | Three-point estimation, confidence intervals |
-| 4 | Reference-Class Forecasting | `agents/planner/domains/reference_class_forecasting.md` | planner-reference-class | Combating planning fallacy, historical comparison |
-| 5 | Estimation Techniques | `agents/planner/domains/estimation_techniques.md` | planner-estimation | Planning Poker, Delphi, T-Shirt, Story Points, Analogy |
-| 6 | Risk Quantification | `agents/planner/domains/risk_quantification.md` | planner-risk | P*I matrix, EMV, risk register, response strategies |
-| 7 | RACI Matrix | `agents/planner/domains/raci.md` | planner-raci | Role assignment, accountability mapping |
-| 8 | MoSCoW Prioritization | `agents/planner/domains/moscow.md` | planner-moscow | Scope prioritization, 60% rule |
-| 9 | Dependency Management | `agents/planner/domains/dependency_management.md` | planner-dependencies | Logical relationships, leads/lags, validation |
-| 10 | Agile Planning | `agents/planner/domains/agile_planning.md` | planner-agile | Velocity forecasting, Cone of Uncertainty, burndown/burnup |
+| 1 | Work Breakdown Structure | `domains/planner/wbs.md` | planner-wbs | Task decomposition, scope definition |
+| 2 | Critical Path Method | `domains/planner/cpm.md` | planner-cpm | Schedule analysis, compression |
+| 3 | PERT Estimation | `domains/planner/pert.md` | planner-pert | Three-point estimation, confidence intervals |
+| 4 | Reference-Class Forecasting | `domains/planner/reference_class_forecasting.md` | planner-reference-class | Combating planning fallacy, historical comparison |
+| 5 | Estimation Techniques | `domains/planner/estimation_techniques.md` | planner-estimation | Planning Poker, Delphi, T-Shirt, Story Points, Analogy |
+| 6 | Risk Quantification | `domains/planner/risk_quantification.md` | planner-risk | P*I matrix, EMV, risk register, response strategies |
+| 7 | RACI Matrix | `domains/planner/raci.md` | planner-raci | Role assignment, accountability mapping |
+| 8 | MoSCoW Prioritization | `domains/planner/moscow.md` | planner-moscow | Scope prioritization, 60% rule |
+| 9 | Dependency Management | `domains/planner/dependency_management.md` | planner-dependencies | Logical relationships, leads/lags, validation |
+| 10 | Agile Planning | `domains/planner/agile_planning.md` | planner-agile | Velocity forecasting, Cone of Uncertainty, burndown/burnup |
 
 ---
 
@@ -192,7 +192,7 @@ Based on the task type identified during Sequential Thinking, load the required 
 
 **How to load a domain:**
 ```bash
-cat agents/planner/domains/<filename>.md
+cat domains/planner/<filename>.md
 ```
 
 **Do NOT load domains you will not use.** Each domain adds context and processing overhead. Be selective and intentional.

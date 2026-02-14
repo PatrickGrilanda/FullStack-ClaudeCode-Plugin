@@ -22,16 +22,16 @@ Your analytical frameworks are organized into domain files. Load ONLY the domain
 
 | # | Domain | File Path | Summary |
 |---|---|---|---|
-| 1 | SWOT + TOWS Matrix | `agents/business_analyst/domains/swot_tows.md` | SWOT 2x2 internal/external assessment with TOWS strategic actions matrix |
-| 2 | Porter's Five Forces | `agents/business_analyst/domains/porters_five_forces.md` | Porter's Five Forces industry analysis with 1-5 scoring and 6th force complementors |
-| 3 | Business Model Canvas | `agents/business_analyst/domains/business_model_canvas.md` | Osterwalder & Pigneur 9-block business model mapping framework |
-| 4 | Lean Canvas | `agents/business_analyst/domains/lean_canvas.md` | Ash Maurya Lean Canvas adapted for startups with Unfair Advantage test |
-| 5 | Value Chain Analysis | `agents/business_analyst/domains/value_chain.md` | Porter's Value Chain with primary and support activities and analysis process |
-| 6 | TAM / SAM / SOM | `agents/business_analyst/domains/tam_sam_som.md` | Market sizing with top-down and bottom-up calculation approaches and common mistakes |
-| 7 | Stakeholder Analysis | `agents/business_analyst/domains/stakeholder_analysis.md` | Mendelow's Power/Interest Grid with RACI Matrix and validation rules |
-| 8 | BPMN | `agents/business_analyst/domains/bpmn.md` | BPMN key elements, gateway types, and As-Is to To-Be process mapping methodology |
-| 9 | Competitive Analysis | `agents/business_analyst/domains/competitive_analysis.md` | Competitor profiling, positioning maps, Blue Ocean ERRC Grid |
-| 10 | PESTLE Analysis | `agents/business_analyst/domains/pestle.md` | PESTLE 6-factor macro-environmental analysis with L x I scoring |
+| 1 | SWOT + TOWS Matrix | `domains/business_analyst/swot_tows.md` | SWOT 2x2 internal/external assessment with TOWS strategic actions matrix |
+| 2 | Porter's Five Forces | `domains/business_analyst/porters_five_forces.md` | Porter's Five Forces industry analysis with 1-5 scoring and 6th force complementors |
+| 3 | Business Model Canvas | `domains/business_analyst/business_model_canvas.md` | Osterwalder & Pigneur 9-block business model mapping framework |
+| 4 | Lean Canvas | `domains/business_analyst/lean_canvas.md` | Ash Maurya Lean Canvas adapted for startups with Unfair Advantage test |
+| 5 | Value Chain Analysis | `domains/business_analyst/value_chain.md` | Porter's Value Chain with primary and support activities and analysis process |
+| 6 | TAM / SAM / SOM | `domains/business_analyst/tam_sam_som.md` | Market sizing with top-down and bottom-up calculation approaches and common mistakes |
+| 7 | Stakeholder Analysis | `domains/business_analyst/stakeholder_analysis.md` | Mendelow's Power/Interest Grid with RACI Matrix and validation rules |
+| 8 | BPMN | `domains/business_analyst/bpmn.md` | BPMN key elements, gateway types, and As-Is to To-Be process mapping methodology |
+| 9 | Competitive Analysis | `domains/business_analyst/competitive_analysis.md` | Competitor profiling, positioning maps, Blue Ocean ERRC Grid |
+| 10 | PESTLE Analysis | `domains/business_analyst/pestle.md` | PESTLE 6-factor macro-environmental analysis with L x I scoring |
 
 ---
 
@@ -179,9 +179,9 @@ After planning your steps, use the **Domain Selection Matrix** to determine whic
 
 ```bash
 # Example: For a "Startup validation" task, load domains 4, 1, 9
-cat agents/business_analyst/domains/lean_canvas.md
-cat agents/business_analyst/domains/swot_tows.md
-cat agents/business_analyst/domains/competitive_analysis.md
+cat domains/business_analyst/lean_canvas.md
+cat domains/business_analyst/swot_tows.md
+cat domains/business_analyst/competitive_analysis.md
 ```
 
 ### Step 2: Project Knowledge Acquisition

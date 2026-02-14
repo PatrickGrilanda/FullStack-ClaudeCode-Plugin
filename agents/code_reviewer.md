@@ -12,20 +12,20 @@ You are NOT a security specialist -- leave deep security analysis to `security-a
 
 ## Available Domains
 
-Your domain knowledge is organized into separate files under `agents/code_reviewer/domains/`. You MUST load only the domains relevant to your current task (see Domain Selection Matrix below).
+Your domain knowledge is organized into separate files under `domains/code_reviewer/`. You MUST load only the domains relevant to your current task (see Domain Selection Matrix below).
 
 | # | Domain | File Path | Summary |
 |---|---|---|---|
-| 1 | Code Smell Taxonomy | `agents/code_reviewer/domains/code_smell_taxonomy.md` | Martin Fowler's code smell taxonomy organized in 5 categories with detection thresholds |
-| 2 | SOLID Violations | `agents/code_reviewer/domains/solid_violations.md` | SOLID principle violation detection indicators with SRP-first analysis strategy |
-| 3 | Cognitive Complexity | `agents/code_reviewer/domains/cognitive_complexity.md` | SonarSource cognitive complexity scoring rules with nesting penalties and thresholds |
-| 4 | Review Standards | `agents/code_reviewer/domains/review_standards.md` | Google Engineering Practices code review standards with Conventional Comments framework |
-| 5 | Refactoring Patterns | `agents/code_reviewer/domains/refactoring_patterns.md` | 8 refactoring patterns with detection triggers and application steps |
-| 6 | Clean Code | `agents/code_reviewer/domains/clean_code.md` | Robert C. Martin clean code principles covering functions, naming, Law of Demeter, YAGNI |
-| 7 | Severity Classification | `agents/code_reviewer/domains/severity_classification.md` | 5-level severity classification with blocking behavior and bug vs quality differentiation |
-| 8 | Performance Anti-Patterns | `agents/code_reviewer/domains/performance_anti_patterns.md` | 7 performance anti-patterns with detection methods and fixes |
-| 9 | Error Handling | `agents/code_reviewer/domains/error_handling.md` | Exception hierarchy, 6 anti-patterns with detection, retry and circuit breaker patterns |
-| 10 | API Design | `agents/code_reviewer/domains/api_design.md` | REST conventions, HTTP status code accuracy, pagination patterns, idempotency |
+| 1 | Code Smell Taxonomy | `domains/code_reviewer/code_smell_taxonomy.md` | Martin Fowler's code smell taxonomy organized in 5 categories with detection thresholds |
+| 2 | SOLID Violations | `domains/code_reviewer/solid_violations.md` | SOLID principle violation detection indicators with SRP-first analysis strategy |
+| 3 | Cognitive Complexity | `domains/code_reviewer/cognitive_complexity.md` | SonarSource cognitive complexity scoring rules with nesting penalties and thresholds |
+| 4 | Review Standards | `domains/code_reviewer/review_standards.md` | Google Engineering Practices code review standards with Conventional Comments framework |
+| 5 | Refactoring Patterns | `domains/code_reviewer/refactoring_patterns.md` | 8 refactoring patterns with detection triggers and application steps |
+| 6 | Clean Code | `domains/code_reviewer/clean_code.md` | Robert C. Martin clean code principles covering functions, naming, Law of Demeter, YAGNI |
+| 7 | Severity Classification | `domains/code_reviewer/severity_classification.md` | 5-level severity classification with blocking behavior and bug vs quality differentiation |
+| 8 | Performance Anti-Patterns | `domains/code_reviewer/performance_anti_patterns.md` | 7 performance anti-patterns with detection methods and fixes |
+| 9 | Error Handling | `domains/code_reviewer/error_handling.md` | Exception hierarchy, 6 anti-patterns with detection, retry and circuit breaker patterns |
+| 10 | API Design | `domains/code_reviewer/api_design.md` | REST conventions, HTTP status code accuracy, pagination patterns, idempotency |
 
 ---
 
@@ -145,11 +145,11 @@ Before proceeding with the review, you MUST load the domain knowledge files rele
 
 **Example:** For a general code review, read these 5 files:
 ```
-agents/code_reviewer/domains/code_smell_taxonomy.md
-agents/code_reviewer/domains/solid_violations.md
-agents/code_reviewer/domains/cognitive_complexity.md
-agents/code_reviewer/domains/clean_code.md
-agents/code_reviewer/domains/severity_classification.md
+domains/code_reviewer/code_smell_taxonomy.md
+domains/code_reviewer/solid_violations.md
+domains/code_reviewer/cognitive_complexity.md
+domains/code_reviewer/clean_code.md
+domains/code_reviewer/severity_classification.md
 ```
 
 **Rationale:** Loading only relevant domains reduces context window usage and keeps the agent focused on the applicable review criteria.

@@ -96,29 +96,30 @@ These hooks spawn separate Claude instances and require no manual configuration.
 ├── .claude-plugin/
 │   ├── plugin.json          # Plugin manifest
 │   └── marketplace.json     # Marketplace configuration
-├── agents/                  # 16 specialized agents
+├── agents/                  # 16 specialized agents (.md files only)
 │   ├── business_analyst.md
-│   ├── business_analyst/domains/   # 10 domain files
 │   ├── code_reviewer.md
-│   ├── code_reviewer/domains/      # 10 domain files
-│   ├── devils_advocate.md
-│   ├── devils_advocate/domains/    # 10 domain files
-│   ├── planner.md
-│   ├── planner/domains/            # 10 domain files
-│   ├── product_growth.md
-│   ├── product_growth/domains/     # 6 domain files
-│   ├── security_analyst.md
-│   ├── security_analyst/domains/   # 10 domain files
 │   ├── data_structure_analyst.md
 │   ├── dba.md
 │   ├── developer.md
+│   ├── devils_advocate.md
 │   ├── devops_engineer.md
 │   ├── git_manager.md
+│   ├── planner.md
+│   ├── product_growth.md
 │   ├── request_analyst.md
 │   ├── requirements_analyst.md
+│   ├── security_analyst.md
 │   ├── tester.md
 │   ├── ui_ux_analyst.md
 │   └── wireframe_creator.md
+├── domains/                 # Modular domain knowledge (loaded on demand)
+│   ├── business_analyst/    # 10 domain files
+│   ├── code_reviewer/       # 10 domain files
+│   ├── devils_advocate/     # 10 domain files
+│   ├── planner/             # 10 domain files
+│   ├── product_growth/      # 6 domain files
+│   └── security_analyst/    # 10 domain files
 ├── skills/                  # 12 invocable skills
 │   ├── commit/
 │   ├── developing/

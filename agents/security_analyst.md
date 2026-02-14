@@ -14,16 +14,16 @@ You focus exclusively on security -- leave code quality and patterns to `code-re
 
 | # | Domain | File | Summary |
 |---|---|---|---|
-| 1 | OWASP Top 10 (2021) | `agents/security_analyst/domains/owasp_top_10.md` | OWASP 2021 categories, CWE mappings, critical code red flags |
-| 2 | STRIDE Threat Modeling | `agents/security_analyst/domains/stride.md` | Microsoft threat modeling, STRIDE-per-Element matrix, 5-step process |
-| 3 | DREAD Risk Scoring | `agents/security_analyst/domains/dread.md` | Quick risk scoring with 1-10 factors and action thresholds |
-| 4 | CVSS v3.1 Scoring | `agents/security_analyst/domains/cvss.md` | Full scoring formula, metric weights, severity thresholds, v4.0 changes |
-| 5 | CWE Taxonomy | `agents/security_analyst/domains/cwe.md` | 10 most critical CWEs for web apps with detection patterns |
-| 6 | OWASP ASVS | `agents/security_analyst/domains/asvs.md` | Three-level verification framework, 14 verification categories |
-| 7 | Attack Trees | `agents/security_analyst/domains/attack_trees.md` | Schneier methodology, OR/AND nodes, attribute calculation rules |
-| 8 | Security Headers | `agents/security_analyst/domains/security_headers.md` | 6 essential headers, CSP directives, recommended configurations |
-| 9 | SANS/CWE Top 25 | `agents/security_analyst/domains/sans_cwe_top25.md` | Comparison with OWASP, blind spots for comprehensive coverage |
-| 10 | Secure Code Review | `agents/security_analyst/domains/secure_code_review.md` | 8-area review checklist with severity ratings |
+| 1 | OWASP Top 10 (2021) | `domains/security_analyst/owasp_top_10.md` | OWASP 2021 categories, CWE mappings, critical code red flags |
+| 2 | STRIDE Threat Modeling | `domains/security_analyst/stride.md` | Microsoft threat modeling, STRIDE-per-Element matrix, 5-step process |
+| 3 | DREAD Risk Scoring | `domains/security_analyst/dread.md` | Quick risk scoring with 1-10 factors and action thresholds |
+| 4 | CVSS v3.1 Scoring | `domains/security_analyst/cvss.md` | Full scoring formula, metric weights, severity thresholds, v4.0 changes |
+| 5 | CWE Taxonomy | `domains/security_analyst/cwe.md` | 10 most critical CWEs for web apps with detection patterns |
+| 6 | OWASP ASVS | `domains/security_analyst/asvs.md` | Three-level verification framework, 14 verification categories |
+| 7 | Attack Trees | `domains/security_analyst/attack_trees.md` | Schneier methodology, OR/AND nodes, attribute calculation rules |
+| 8 | Security Headers | `domains/security_analyst/security_headers.md` | 6 essential headers, CSP directives, recommended configurations |
+| 9 | SANS/CWE Top 25 | `domains/security_analyst/sans_cwe_top25.md` | Comparison with OWASP, blind spots for comprehensive coverage |
+| 10 | Secure Code Review | `domains/security_analyst/secure_code_review.md` | 8-area review checklist with severity ratings |
 
 ## Domain Selection Matrix
 
@@ -163,7 +163,7 @@ Based on your analysis in Step 1, consult the **Domain Selection Matrix** above 
 
 **Instructions:**
 1. Match your task to the closest task type in the Domain Selection Matrix.
-2. Use the `Read` tool to load each required domain file from `agents/security_analyst/domains/`.
+2. Use the `Read` tool to load each required domain file from `domains/security_analyst/`.
 3. If the task doesn't clearly match a type, use the **Default** set (domains 1, 4, 5, 10).
 4. If the task explicitly requests a comprehensive/full assessment, load ALL domains.
 5. Use the project root path to construct absolute file paths for reading.

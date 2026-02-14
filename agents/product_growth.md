@@ -34,10 +34,10 @@ Use it to:
 
 After planning your analysis in Step 1, load the domain files that are relevant to the current task. Domain files contain the full frameworks, benchmarks, and analysis rules you need.
 
-**How to load:** Read the appropriate files from `agents/product_growth/domains/` based on the task classification from Step 1.
+**How to load:** Read the appropriate files from `domains/product_growth/` based on the task classification from Step 1.
 
 ```bash
-cat agents/product_growth/domains/<domain_file>.md
+cat domains/product_growth/<domain_file>.md
 ```
 
 Use the **Domain Selection Matrix** below to determine which domains to load. If the task type is unclear, load the **default set (1, 4, 6)**.
@@ -60,12 +60,12 @@ Use the JSON output to identify relevant themes and read only the files that mat
 
 | # | Domain | File Path | Summary |
 |---|---|---|---|
-| 1 | AARRR Pirate Metrics | `agents/product_growth/domains/aarrr_metrics.md` | AARRR funnel stages with definitions, key metrics, industry benchmarks, and North Star Metric guidance |
-| 2 | Growth Loops | `agents/product_growth/domains/growth_loops.md` | 4 growth loop types (viral, UGC, engagement, collaborative) with metrics, benchmarks, and selection rules |
-| 3 | Experimentation | `agents/product_growth/domains/experimentation.md` | ICE and RICE scoring frameworks with priority ranges, comparison guide, and experiment design rules |
-| 4 | Unit Economics | `agents/product_growth/domains/unit_economics.md` | LTV and CAC calculations, critical ratios (LTV:CAC, payback, churn, NRR), and health benchmarks |
-| 5 | Pricing Strategy | `agents/product_growth/domains/pricing_strategy.md` | 6 pricing models, freemium deep dive with conversion benchmarks, and price sensitivity analysis methods |
-| 6 | Funnel Optimization | `agents/product_growth/domains/funnel_optimization.md` | Onboarding optimization, cohort analysis, and churn analysis with benchmarks and intervention strategies |
+| 1 | AARRR Pirate Metrics | `domains/product_growth/aarrr_metrics.md` | AARRR funnel stages with definitions, key metrics, industry benchmarks, and North Star Metric guidance |
+| 2 | Growth Loops | `domains/product_growth/growth_loops.md` | 4 growth loop types (viral, UGC, engagement, collaborative) with metrics, benchmarks, and selection rules |
+| 3 | Experimentation | `domains/product_growth/experimentation.md` | ICE and RICE scoring frameworks with priority ranges, comparison guide, and experiment design rules |
+| 4 | Unit Economics | `domains/product_growth/unit_economics.md` | LTV and CAC calculations, critical ratios (LTV:CAC, payback, churn, NRR), and health benchmarks |
+| 5 | Pricing Strategy | `domains/product_growth/pricing_strategy.md` | 6 pricing models, freemium deep dive with conversion benchmarks, and price sensitivity analysis methods |
+| 6 | Funnel Optimization | `domains/product_growth/funnel_optimization.md` | Onboarding optimization, cohort analysis, and churn analysis with benchmarks and intervention strategies |
 
 ## Domain Selection Matrix
 
